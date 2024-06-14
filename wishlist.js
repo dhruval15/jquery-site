@@ -3,7 +3,7 @@ $('#footer-import').html(footer);
 
 var wishlistProducts = [];
 function handleWishList(id, isWishList) {
-    console.log('id', isWishList);
+    console.log('id', id);
     let isDeleted = false
     if (wishlistProducts.length === 0) {
         // console.log("show", show[0]);
